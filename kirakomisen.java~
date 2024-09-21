@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+class kirakomisen {
+  static void main (String args[]) {
+    Scanner sc = new Scanner (System.in);
+    
+    
+    System.in.print("Masukkan jumlah jumlah jualan individu: ");
+    double jIndividu = sc.nextDoubel();
+    kadarKomIn = kiraKadarIn (jIndividu);
+    
+    System.in.print("Masukkan jumlah jumlah jualan kedai: ");
+    double jKedai = sc.nextDouble();
+    kadarKomKed = kiraKadarKed (jKedai);
+  }
+    
+    static int kiraKadarIn (double jIndividu) {
+      if jIndividu >= 250000
+        return 5;
+      if jIndividu >= 150000
+        return 3;
+      if jIndividu >= 75000
+        return 1;
+      if jIndividu <= 75000
+        return 0;
+    }
+    
+    static int kiraKadarIn (double jKedai) {
+      if jIndividu >= 1000000
+        return 3;
+      if jIndividu >= 700000
+        return 2;
+      if jIndividu >= 400000
+        return 1;
+      if jIndividu <= 400000
+        return 0;
+    }
+    
+    System.in.println(kadarKomIn);
+    System.in.println(kadarKomKed);
+  }
+    
+    

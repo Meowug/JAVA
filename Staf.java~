@@ -1,0 +1,16 @@
+public class Staf{
+  public static void main (Strng[] args){
+    String nama = "Johari Bin Ghazali";
+    int umur = 42;
+    double gaji = 3500.00;
+    Tajuk();
+    //DataPekerja(nama, umur, gaji);
+  }
+  static void Tajuk(){
+    System.out.println("MAKLUMAT PEKERJA");
+    int i=0;
+    do{
+      System.out.print("#");
+      i++;
+    }while(i<37);
+}

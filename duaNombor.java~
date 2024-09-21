@@ -1,0 +1,21 @@
+public class duaNombor {
+  public static void main (String[] args) {
+    
+    int No1 = 20;
+    int No2 = 35;
+    
+    if (No1 > No2) {
+      NoBesar = No1;
+      NoKecil = No2;
+    } else {
+      NoBesar = No2;
+      NoKecil = No1;
+    }
+    
+    double purata = (No1+No2)/2;
+    
+    System.out.println("No Besar\t: "+NoBesar);
+    System.out.println("No Kecil\t: "+NoKecil);
+    System.out.println("Purata\t: "+purata);
+  }
+}

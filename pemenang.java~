@@ -1,0 +1,27 @@
+import java.util.*;
+
+public class pemenang {
+  public static void main (String[] args) {
+    Scanner sc = new Scanner (System.in);
+    int kedudukan;
+    System.out.print("Masukkan kedudukan peserta (1,2,3) : ");
+    kedudukan = sc.nextInt();
+    Switch (kedudukan) {
+      case 1:
+        System.out.print("Anda Johan");
+        break;
+      case 2:
+        System.out.print("Anda Naib Johan");
+        break;
+      case 3:
+        System.out.print("Anda Tempat Ketiga");
+        break;
+      default:
+        System.out.print("Nombor tiada dalam senarai pilihan");
+        break;
+    }
+  }
+}
+      
+    
+    

@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class kelayakan {
+  public static void main (String[] args) {
+    Scanner sc = new Scanner (System.in);
+    char gredMath, gredSNS;
+    String status;
+    
+    System.out.print("Taipkan gred bagi mata pelajaran Matematik : ");
+    //gredMath = sc.next().charAt(0);
+    System.out.print("Taipkan gred bagi mata pelajaran Sains\t: ");
+  }
+}

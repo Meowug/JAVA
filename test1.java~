@@ -1,0 +1,6 @@
+public class test1 {
+  public static void main (String[] args) {
+    int myInteger = 90;
+    double myDouble = (double) myInteger;
+  }
+}

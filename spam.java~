@@ -1,0 +1,7 @@
+public class spam {
+  public static void main (Strring args[]) {
+    for (int i=0;i>-1;i++) {
+      System.out.print(i);
+    }
+  }
+}

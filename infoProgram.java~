@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class infoProgram
+{
+  public static void main (String args[])
+  {
+    Scanner Key = new Scanner (System.in);
+    
+    String namaKelas,namaKoordinator; //setkan jenis data untuk pembolehubah
+    int bilPel;
+    
+    System.out.print("Masukkan nama kelas : ");
+    namaKelas = Key.nextLine();
+    System.out.print("Masukkan bilangan pelajar : ");
+    bilPel = Key.nextInt();
+  }}
+    
+    

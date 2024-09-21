@@ -1,0 +1,5 @@
+public class dataTypes{
+  public static void main (String[] args){
+    float myFloat = 1234567.9f;
+  }
+}
